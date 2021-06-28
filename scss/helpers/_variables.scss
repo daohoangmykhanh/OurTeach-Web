@@ -1,42 +1,44 @@
 // colors array
 
-$colors: (
-    "purple": #b61984,
-    "black": #000000,
-    "white": #ffffff,
-    "light-purple":#DCD1F3,  
-);
+$c-purple: #b61984;
+$c-black: #000000;
+$c-white: #ffffff;
+$c-lightpurple: #DCD1F3;
+
 
 // font-size
-$text-2xs: 0.703125;
-$text-xs: 0.8125rem;
-$text-sm: 0.9375rem;
-$text-md: 1.03125rem;
-$text-lg: 1.453125rem;
-$text-xl: 2.34375rem;
-$text-2xl: 3.5625rem;
+$t-2xs: 0.703125rem;
+$t-xs: 0.8125rem;
+$t-sm: 0.9375rem;
+$t-md: 1.03125rem;
+$t-lg: 1.453125rem;
+$t-xl: 2.34375rem;
+$t-2xl: 3.5625rem;
 
 // font-weight
-$font-light: 300;
-$font-regular: 400;
-$font-medium: 500;
-$font-semibold: 600;
-$font-bold: 700;
+$f-light: 300;
+$f-regular: 400;
+$f-medium: 500;
+$f-semibold: 600;
+$f-bold: 700;
 
 // spacing:
-$spacing-1: 0.25rem;
-$spacing-2: 0.5rem;
-$spacing-3: 0.75rem;
-$spacing-4: 1rem;
-$spacing-5: 1.25rem;
-$spacing-6: 1.5rem;
-$spacing-7: 1.75rem;
-$spacing-8: 2rem;
-$spacing-9: 3rem;
-$spacing-10: 4rem;
-$spacing-11: 5rem;
+$s-1: 0.25rem;
+$s-2: 0.5rem;
+$s-3: 0.75rem;
+$s-4: 1rem;
+$s-5: 1.25rem;
+$s-6: 1.5rem;
+$s7: 1.75rem;
+$s-8: 2rem;
+$s-9: 3rem;
+$s-10: 4rem;
+$s-11: 5rem;
 
 //letter spacing
 $ls-1: 0.015rem;
 $ls-2: 0.03rem;
 
+//border
+$bd-1: 0.625rem;
+$bd-2: 2rem;

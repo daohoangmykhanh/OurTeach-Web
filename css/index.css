@@ -1,1 +1,82 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .container-fluid {
+  padding: 0;
+}
+
+.header nav {
+  padding: 0;
+}
+
+.header nav img {
+  width: 5rem;
+}
+
+.header nav .header__navbar {
+  margin-left: 8.5rem;
+}
+
+.header nav .header__navbar .nav-link {
+  font-size: 0.8125rem;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+
+.header nav .header__navbar .nav-link:hover {
+  color: #b61984;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.header nav .header__phone:hover {
+  color: #b61984;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px #b61984 solid;
+}
+
+.header nav .header__phone:hover a {
+  color: #b61984;
+}
+
+.header nav .header__phone {
+  background-color: #b61984;
+  font-size: 0.85313rem;
+  font-weight: 500;
+  padding: 0 1.25rem;
+  border-radius: 2rem;
+}
+
+.header nav .header__phone a {
+  color: #ffffff;
+  margin-top: 0.75rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header nav .header__social {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.header nav .header__social > a {
+  color: #000000;
+  padding-right: 0.5rem;
+  font-size: 0.8125rem;
+  text-decoration: none;
+}
+
+.header nav .header__social > a i:hover {
+  color: #b61984;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+/*# sourceMappingURL=index.css.map */
