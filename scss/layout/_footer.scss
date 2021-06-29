@@ -1,0 +1,72 @@
+.footer{
+    background-image: url('/images/footer_background.jpg');
+    padding: $s-11*2 0;
+    color: $c-white;
+    font-weight: $f-medium;
+    margin-top: -12px;
+
+    h1{
+        font-size: $t-lg;
+        font-weight: $f-bold;
+        color: $c-white;
+        margin-bottom: $s-6;
+    }
+
+    span{
+        font-size: $t-xs*1.05;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a{
+        color: $c-white;
+        font-size: $t-xs*1.05;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+     
+    i{
+        margin-right: $s-3;
+    }
+
+    .footer__contact{
+        a:hover{
+            color: $c-black;
+            transition: all 0.3s ease;
+        }
+    }
+
+    .footer__link{
+        p{
+            border-bottom: 1px solid $c-darkpurple;
+            padding-bottom: $s-2;
+            margin-bottom: $s-2;
+            &:hover{
+                opacity: 0.8;
+                transition: 0.3s all linear;
+            }
+        }
+    }
+
+    .footer__form{
+
+        input{
+            border: 1px solid rgba(255,255,255,.1);
+            background-color: transparent;
+            border-radius: $bd-2;
+            padding: 15px 52px;
+            text-align: center;
+            color: $c-white;
+            font-size: $t-xs*1.05;
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden;
+            margin-top: $s-6;
+            &::placeholder{
+                color: $c-white;
+            }
+        }
+        button{
+            margin-top: $s-3;
+            width: 16.5625rem;
+        }
+    }
+}

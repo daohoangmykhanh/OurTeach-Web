@@ -6,6 +6,93 @@
           box-sizing: border-box;
 }
 
+.footer {
+  background-image: url("/images/footer_background.jpg");
+  padding: 10rem 0;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: -12px;
+}
+
+.footer h1 {
+  font-size: 1.45312rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.footer span {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.footer i {
+  margin-right: 0.75rem;
+}
+
+.footer .footer__contact a:hover {
+  color: #191919;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer .footer__link p {
+  border-bottom: 1px solid #9e0777;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer .footer__link p:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.footer .footer__form input {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  border-radius: 2rem;
+  padding: 15px 52px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.footer .footer__form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input::placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form button {
+  margin-top: 0.75rem;
+  width: 16.5625rem;
+}
+
+.header .container {
+  padding: 0;
+}
+
 .header .container-fluid {
   padding: 0;
 }
@@ -19,12 +106,12 @@
 }
 
 .header nav .header__navbar {
-  margin-left: 8.5rem;
+  margin-left: 12.5rem;
 }
 
 .header nav .header__navbar .nav-link {
   font-size: 0.8125rem;
-  color: #000000;
+  color: #191919;
   font-weight: 600;
   margin-left: 2rem;
 }
@@ -68,9 +155,9 @@
 }
 
 .header nav .header__social > a {
-  color: #000000;
-  padding-right: 0.5rem;
-  font-size: 0.8125rem;
+  color: #191919;
+  padding-right: 0.25rem;
+  font-size: 0.9375rem;
   text-decoration: none;
 }
 
@@ -78,5 +165,332 @@
   color: #b61984;
   -webkit-transition: 0.2s all linear;
   transition: 0.2s all linear;
+}
+
+.about {
+  background-image: url("../../images/yellow_top_wave_01.png");
+  background-repeat: no-repeat;
+  background-position-x: -170px;
+  background-position-y: -40px;
+}
+
+.about .about__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-content: center;
+}
+
+.about .about__info span {
+  color: #b61984;
+  font-size: 1.03125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.about .about__info h1 {
+  font-weight: 700;
+  font-size: 3.5625rem;
+}
+
+.btnSubmit {
+  background: #b61984;
+  padding: 15px 52px;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btnSubmit:hover {
+  background-color: #ffffff;
+  color: #b61984;
+  border: 1px solid #b61984;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btnSubmit2 {
+  background: #ffffff;
+  padding: 15px 52px;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #b61984;
+}
+
+.btnSubmit2:hover {
+  background-color: #b61984;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team .team__content {
+  border-radius: 0.625rem;
+  overflow: hidden;
+  border: none;
+}
+
+.team .team__content .team__img {
+  overflow: hidden;
+}
+
+.team .team__content .team__img img {
+  width: 100%;
+}
+
+.team .team__content:hover {
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.team .team__content img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 2s ease all;
+  transition: 2s ease all;
+}
+
+.team .team__content span {
+  margin-top: 1.75rem;
+  font-size: 0.70312rem;
+  color: #b61984;
+  font-weight: 600;
+}
+
+.team .team__content h1 {
+  margin-top: 0.5rem;
+  font-size: 1.45312rem;
+  font-weight: 700;
+}
+
+.team .team__content p {
+  font-size: 0.9375rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.form {
+  padding-bottom: 4rem;
+  background-image: url(../../images/accent_bottom_wave_01.png);
+  background-position-x: -500px;
+  background-position-y: -12px;
+  background-size: cover;
+  margin-top: 9rem;
+}
+
+.form .form__info {
+  margin: 2rem 5rem;
+  padding-right: 8.75rem;
+}
+
+.form .form__info .form__content {
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-color: #ffffff;
+  border-radius: 0.9375rem;
+  padding: 1rem 1.75rem;
+  overflow: hidden;
+}
+
+.form .form__info .form__content > span {
+  color: #191919;
+  font-size: 2.34375rem;
+  font-weight: 700;
+  margin: 1rem 0 3rem 0;
+}
+
+.form .form__info .form__content button {
+  margin-top: 3rem;
+  margin-bottom: 1.75rem;
+}
+
+.form .form__info .form__content i {
+  color: #b61984;
+  font-size: 0.9375rem;
+  padding-top: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.form .form__info .form__content .form__input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+  overflow: hidden;
+  margin-right: 0.75rem;
+}
+
+.form .form__info .form__content .form__input input {
+  border: none;
+  width: 7rem;
+}
+
+.form .form__info .form__content .form__input input::-webkit-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__input input:-ms-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__input input::-ms-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__input input::placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__select {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  width: 20.9rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.form .form__info .form__content .form__select select {
+  width: 16rem;
+  border: none;
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.75;
+}
+
+.form .form__info .form__content .form__mess {
+  margin-top: 1rem;
+  width: 20.9rem;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.form .form__info .form__content .form__mess textarea {
+  padding: 0;
+  border: none;
+}
+
+.form .form__info .form__content .form__mess textarea::-webkit-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__mess textarea:-ms-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__mess textarea::-ms-input-placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__info .form__content .form__mess textarea::placeholder {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  background-image: url("/images/footer_background.jpg");
+  padding: 10rem 0;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: -12px;
+}
+
+.footer h1 {
+  font-size: 1.45312rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.footer span {
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.footer i {
+  margin-right: 0.75rem;
+}
+
+.footer .footer__contact a:hover {
+  color: #191919;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer .footer__link p {
+  border-bottom: 1px solid #9e0777;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer .footer__link p:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.footer .footer__form input {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  border-radius: 2rem;
+  padding: 15px 52px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.85313rem;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.footer .footer__form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form input::placeholder {
+  color: #ffffff;
+}
+
+.footer .footer__form button {
+  margin-top: 0.75rem;
+  width: 16.5625rem;
 }
 /*# sourceMappingURL=index.css.map */

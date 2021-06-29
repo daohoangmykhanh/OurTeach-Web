@@ -1,41 +1,32 @@
 .header{
 
-    .container-fluid{
-        
+    .container{
         padding: 0;
     }
-   nav{
 
+    .container-fluid{    
         padding: 0;
+    }
 
+    nav{
+        padding: 0;
         img{
             width: $s-11;
         }
-
-       .header__navbar{
-           
-           margin-left: $s-11*1.7;
-           
-           .nav-link{
-               
+       .header__navbar{    
+           margin-left: $s-11*2.5;   
+           .nav-link{       
                font-size: $t-xs;
                color: $c-black;
                font-weight: $f-semibold;
-               margin-left: $s-8;
-               
+               margin-left: $s-8;    
             }
-            
-            .nav-link:hover{
-                
+            .nav-link:hover{     
                 color: $c-purple;
-                transition: 0.3s all linear;
-                
+                transition: 0.3s all linear; 
             }
-            
         }
-
         .header__phone:hover{
-
             a{
                 color: $c-purple;
             }
@@ -44,15 +35,12 @@
             transition: all 0.3s ease;
             border: 1px $c-purple solid;
         }
-
         .header__phone{
-
             background-color: $c-purple;
             font-size: $t-xs*1.05;
             font-weight: $f-medium;
             padding: 0 $s-5;
             border-radius: $bd-2;
-            
             a{
                 color: $c-white;
                 margin-top: $s-3;
@@ -61,18 +49,14 @@
             }
 
         }
-
         .header__social{
-
             padding-top: $s-3;
             padding-bottom: $s-3;
-
             > a{
                 color: $c-black;
-                padding-right: $s-2;
-                font-size: $t-xs;
+                padding-right: $s-1;
+                font-size: $t-sm;
                 text-decoration: none;
-
                 i:hover{
                     color: $c-purple;
                     transition: 0.2s all linear;

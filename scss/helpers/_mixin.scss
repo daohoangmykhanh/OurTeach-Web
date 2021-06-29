@@ -1,0 +1,12 @@
+@mixin styleButton($bg, $pd-y, $pd-x, $bd, $bd-r) {
+    background: $bg;
+    padding: $pd-y $pd-x;
+    border: $bd;
+    border-radius: $bd-r;
+}
+
+@mixin styleText($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}

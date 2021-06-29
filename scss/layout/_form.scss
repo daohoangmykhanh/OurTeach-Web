@@ -1,0 +1,94 @@
+.form{
+    padding-bottom: $s-8*2;
+    background-image: url(../../images/accent_bottom_wave_01.png);
+    background-position-x: -500px;
+    background-position-y: -12px;
+    background-size:cover;
+    margin-top: $s-11*1.8;
+
+    .form__info{
+
+        margin: $s-8 $s-11;
+        padding-right: $s-11*1.75;
+        
+        .form__content{
+            box-shadow: 0 0 11px rgba(33,33,33,.2); 
+            background-color: $c-white;
+            border-radius: $bd-1*1.5;
+            padding: $s-4 $s-7;
+            overflow: hidden;
+
+            > span{
+                color: $c-black;
+                font-size: $t-xl;
+                font-weight: $f-bold;
+                margin: $s-4 0 $s-9 0;
+            }
+
+            button{
+                margin-top: $s-9;
+                margin-bottom: $s-7;
+            }
+
+            i{
+                color: $c-purple;
+                font-size: $t-sm;
+                padding-top: $s-1;
+                margin-right: $s-2;
+            }
+
+            .form__input{
+
+                border: 1px solid rgba(33,33,33,.2);
+                padding: $s-2 $s-4;
+                border-radius: $bd-2;
+                width: 10rem;
+                overflow: hidden;
+                margin-right: $s-3;
+                input{
+                    border: none;
+                    width: 7rem;
+                    &::placeholder{
+                        font-size: $t-xs*1.05;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+
+            .form__select{
+                border: 1px solid rgba(33,33,33,.2);
+                padding: $s-2 $s-4;
+                border-radius: $bd-2;
+                width: 20.9rem;
+                overflow: hidden;
+                margin-top: $s-4;
+
+                select{
+                    width: 16rem;
+                    border: none;
+                    font-size: $t-xs*1.05;
+                    font-family: 'Roboto', sans-serif;
+                    opacity: 0.75;
+                }
+            }
+
+            .form__mess{
+                margin-top: $s-4;
+                width: 20.9rem;
+                border: 1px solid rgba(33,33,33,.2);
+                padding: $s-2 $s-4;
+                border-radius: $bd-2;
+                overflow: hidden;
+
+                textarea{
+                    padding: 0;
+                    border: none;
+                    &::placeholder{
+                        font-size: $t-xs*1.05;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}

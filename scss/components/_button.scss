@@ -1,0 +1,35 @@
+.btnSubmit{
+    @include styleButton(
+        $c-purple,
+        15px,
+        52px,
+        none,
+        $bd-3
+    );
+
+    @include styleText($t-xs,$f-semibold,$c-white);
+    &:hover{
+        background-color: $c-white;
+        color: $c-purple;
+        border: 1px solid $c-purple;
+        transition: all 0.3s ease;
+    }
+}
+
+.btnSubmit2{
+    @include styleButton(
+        $c-white,
+        15px,
+        52px,
+        none,
+        $bd-3
+    );
+
+    @include styleText($t-xs,$f-semibold,$c-purple);
+    &:hover{
+        background-color: $c-purple;
+        color: $c-white;
+        border: 1px solid $c-white;
+        transition: all 0.3s ease;
+    }
+}

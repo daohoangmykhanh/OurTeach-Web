@@ -1,0 +1,29 @@
+.about{
+
+    background-image: url('../../images/yellow_top_wave_01.png');
+    background-repeat: no-repeat;
+    background-position-x: -170px;
+    background-position-y: -40px;
+
+
+    .about__info{
+         
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content:center;
+
+        span{
+            color: $c-purple;
+            font-size: $t-md;
+            font-weight: $f-semibold;
+            margin-bottom: $s-2;
+        }
+
+        h1{
+            font-weight: $f-bold;
+            font-size: $t-2xl;
+        }
+    }
+
+}
