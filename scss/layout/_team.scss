@@ -50,3 +50,22 @@
         }
     }
 }
+
+@media screen and (max-width:576px){
+
+    .team__list{
+        margin-top: 0;
+        flex-direction: column;
+        .team__item{
+            width: 100%;
+            display: block;
+            margin-top: $s-4;
+            margin-bottom: $s-4;
+        }
+    }
+
+    .team{
+        background-color: $c-lightpurple;
+    }
+
+}

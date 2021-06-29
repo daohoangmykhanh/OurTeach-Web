@@ -70,3 +70,29 @@
         }
     }
 }
+
+@media screen and (max-width:576px){
+    .footer{
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .container{
+            flex-direction: column;
+        }
+        .footer__contact{
+            margin-bottom: $s-8;
+        }
+        .footer__link{
+            margin-bottom: $s-8;
+        }
+        .footer__form{
+            margin-bottom: $s-8;
+            input{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

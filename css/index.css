@@ -89,6 +89,34 @@
   width: 16.5625rem;
 }
 
+@media screen and (max-width: 576px) {
+  .footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__contact {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__link {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__form {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__form input {
+    width: 100%;
+  }
+  .footer .footer__form button {
+    width: 100%;
+  }
+}
+
 .header {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -178,10 +206,6 @@
   transition: 0.2s all linear;
 }
 
-.header__logo {
-  z-index: 1000;
-}
-
 .header__logo > a img {
   height: 5rem;
   position: relative;
@@ -194,7 +218,40 @@
   position: relative;
   bottom: 10rem;
   left: -10rem;
-  z-index: 900;
+  z-index: 600;
+}
+
+.header__logo .bnt__bar {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    display: none;
+  }
+  .header__background {
+    display: none;
+  }
+  .header__logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 1000;
+  }
+  .header__logo > a img {
+    left: 0.5rem;
+    bottom: 0.5rem;
+    z-index: 150;
+    width: 3rem;
+    height: 3rem;
+  }
+  .header__logo i {
+    font-size: 2.17969rem;
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+  }
 }
 
 .about {
@@ -230,6 +287,25 @@
 .about .about__info h1 {
   font-weight: 700;
   font-size: 3.5625rem;
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    background-image: url("../../images/Violet_top_left_wave.png");
+    background-size: contain;
+    background-position-y: 35.7rem;
+    margin-top: 4rem;
+  }
+  .about .about__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about img {
+    height: 19.7rem;
+    width: 19.7rem;
+  }
 }
 
 .btnSubmit {
@@ -323,6 +399,25 @@
   font-family: 'Roboto', sans-serif;
   padding: 0.5rem 1.5rem;
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .team__list {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team__list .team__item {
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .team {
+    background-color: #DCD1F3;
+  }
 }
 
 .form {
@@ -453,6 +548,39 @@
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 576px) {
+  .form {
+    background-position-x: 0px;
+    background-position-y: 49.6rem;
+  }
+  .form .form__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form .form__list img {
+    width: 17.1875rem;
+  }
+  .form .form__list .form__info {
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .form .form__list .form__info .form__select {
+    width: 100%;
+  }
+  .form .form__list .form__info .form__select select {
+    width: 75%;
+  }
+  .form .form__list .form__info .form__mess {
+    width: 100%;
+  }
+  .form .form__list .form__info button {
+    width: 100%;
+  }
+}
+
 .footer {
   background-image: url("/images/footer_background.jpg");
   padding: 10rem 0;
@@ -534,5 +662,33 @@
 .footer .footer__form button {
   margin-top: 0.75rem;
   width: 16.5625rem;
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__contact {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__link {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__form {
+    margin-bottom: 2rem;
+  }
+  .footer .footer__form input {
+    width: 100%;
+  }
+  .footer .footer__form button {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

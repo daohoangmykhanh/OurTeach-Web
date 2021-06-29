@@ -28,3 +28,22 @@
     }
 
 }
+
+@media screen and (max-width:576px){
+        
+    .about{
+
+        background-image: url('../../images/Violet_top_left_wave.png');
+        background-size: contain;
+        background-position-y: 35.7rem;
+        margin-top: $s-8*2;
+        .about__list{
+            flex-direction: column;
+        }
+    
+        img{
+            height: 19.7rem;
+            width: 19.7rem;
+        }
+    }
+}

@@ -83,7 +83,6 @@
 
 .header__logo{
     
-    z-index: 1000;
     > a{
         img{
         height: 5rem;
@@ -97,10 +96,50 @@
         position: relative;
         bottom: 10rem;
         left: -10rem; 
-        z-index: 900;
+        z-index: 600;
 
     }
 
+    .bnt__bar{
+        display: none;
+    }
 
     
+}
+
+@media screen and (max-width:576px){
+
+    .header{
+        display: none;
+    }
+
+    .header__background{
+        display: none;
+    }
+    .header__logo{
+
+
+        position: fixed ;
+        top: 0;
+        left: 0;
+        background-color: $c-white;
+        width: 100%;
+        z-index: 1000;
+
+        >a{
+            img{
+            left: 0.5rem;
+            bottom: 0.5rem;
+            z-index: 150;
+            width: 3rem;
+            height: 3rem;
+        }
+        }
+        i{
+            font-size: $t-lg*1.5;
+            margin-left: $s-8;
+            margin-top: $s-3;
+        }
+    }
+
 }
