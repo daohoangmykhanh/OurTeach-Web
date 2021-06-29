@@ -1,9 +1,10 @@
 .form{
     padding-bottom: $s-8*2;
     background-image: url(../../images/accent_bottom_wave_01.png);
-    background-position-x: -500px;
-    background-position-y: -12px;
-    background-size:cover;
+    background-position-x: 0px;
+    background-position-y: 140px;
+    background-size:contain;
+    background-repeat: no-repeat;
     margin-top: $s-11*1.8;
 
     .form__info{

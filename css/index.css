@@ -11,7 +11,7 @@
   padding: 10rem 0;
   color: #ffffff;
   font-weight: 500;
-  margin-top: -12px;
+  margin-top: -30.8px;
 }
 
 .footer h1 {
@@ -89,6 +89,16 @@
   width: 16.5625rem;
 }
 
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 10rem;
+  position: fixed;
+  z-index: 700;
+  width: 100%;
+  background-color: #ffffff;
+}
+
 .header .container {
   padding: 0;
 }
@@ -140,6 +150,7 @@
   font-weight: 500;
   padding: 0 1.25rem;
   border-radius: 2rem;
+  margin-left: 1.5rem;
 }
 
 .header nav .header__phone a {
@@ -167,11 +178,32 @@
   transition: 0.2s all linear;
 }
 
+.header__logo {
+  z-index: 1000;
+}
+
+.header__logo > a img {
+  height: 5rem;
+  position: relative;
+  bottom: 0rem;
+  left: 25rem;
+  z-index: 1000;
+}
+
+.header__logo .header__background {
+  position: relative;
+  bottom: 10rem;
+  left: -10rem;
+  z-index: 900;
+}
+
 .about {
-  background-image: url("../../images/yellow_top_wave_01.png");
+  background-image: url("../../images/Violet_top_left_wave.png");
   background-repeat: no-repeat;
-  background-position-x: -170px;
-  background-position-y: -40px;
+  background-size: contain;
+  background-position-x: 0px;
+  background-position-y: 300px;
+  margin-top: -24rem;
 }
 
 .about .about__info {
@@ -236,6 +268,15 @@
   transition: all 0.3s ease;
 }
 
+.team {
+  background-color: #dcd1f3;
+  background-image: url(../../images/Wave_White_bottom_right_shape_01.png);
+  background-position-y: 328px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+}
+
 .team .team__content {
   border-radius: 0.625rem;
   overflow: hidden;
@@ -287,9 +328,10 @@
 .form {
   padding-bottom: 4rem;
   background-image: url(../../images/accent_bottom_wave_01.png);
-  background-position-x: -500px;
-  background-position-y: -12px;
-  background-size: cover;
+  background-position-x: 0px;
+  background-position-y: 140px;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 9rem;
 }
 
@@ -416,7 +458,7 @@
   padding: 10rem 0;
   color: #ffffff;
   font-weight: 500;
-  margin-top: -12px;
+  margin-top: -30.8px;
 }
 
 .footer h1 {
